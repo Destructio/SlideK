@@ -61,7 +61,7 @@ class ScreenshotBot(
     }
 
     override fun start() {
-        println("Starting the screenshoting mission.")
+        println("Starting screenshoting")
         status = "Online"
 
         lastShot = BufferedImage(1920,1080,1) //TODO: fix this initialization
