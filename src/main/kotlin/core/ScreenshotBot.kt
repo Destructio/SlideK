@@ -1,4 +1,7 @@
-import kotlinx.coroutines.delay
+package core
+
+import MyRobot
+import model.Shotter
 import java.awt.*
 import java.awt.image.BufferedImage
 import java.io.File
@@ -15,7 +18,7 @@ class ScreenshotBot(
     private val  accuracy: Int ): MyRobot(), Shotter {
 
     override val name: String
-        get() = "ScreenshotBot ver. 1.0"
+        get() = "core.ScreenshotBot ver. 1.0"
     override var status: String = "Offline"
 
     private var i: Long = 1
